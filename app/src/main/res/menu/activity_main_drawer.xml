@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/m"
+        android:title="Главная" />
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/n"
+            android:title="Премьеры" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/mv"
+            android:title="Фильмы" />
+        <item
+            android:id="@+id/menu4"
+            android:icon="@drawable/tv"
+            android:title="Сериалы" />
+        <item
+            android:id="@+id/menu5"
+            android:icon="@drawable/mf"
+            android:title="Мультфильмы" />
+        <item
+            android:id="@+id/menu6"
+            android:icon="@drawable/s"
+            android:title="Закладки" />
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:title="Выход" />
+        </menu>
+    </item>
+
+</menu>

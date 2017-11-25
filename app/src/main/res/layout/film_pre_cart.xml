@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/film_pre_image_widht"
+        android:layout_height="@dimen/film_pre_image_height"
+        android:id="@+id/film_pre_image"
+        fresco:placeholderImage="@drawable/m"
+        fresco:placeholderImageScaleType="fitCenter"
+       />
+
+        <TextView
+            android:id="@+id/film_pre_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/film_pre_image_padding2"
+            />
+
+        <TextView
+            android:id="@+id/film_pre_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
